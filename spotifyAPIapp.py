@@ -1,8 +1,8 @@
-import os, keys, requests
+import os, requests
 
-spotifyID = keys.spotifyID
-spotifyKey = keys.spotifyKey
-print(spotifyID)
-print(spotifyKey)
+def main(id, key, url):
+    print(id)
+    print(key)
+    print(url)
 
-response=requests.post
+    #response=requests.post
