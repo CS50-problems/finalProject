@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="fourinarow.css">
+</head>
+
+<body class="body">
+    <div class="wrapper"><h1>Connect 4</h1><h2>Made by Dmytro Osyka</h2></div>
+    <br>
+    <br>
+    <br>
+    <table border="1" align="center" class="table">
+        <tr>
+            <td>
+                <div id="c0">
+                    <div class="cell">
+                        <div class="blank" id="00"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c1">
+                    <div class="cell">
+                        <div class="blank" id="01"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c2">
+                    <div class="cell">
+                        <div class="blank" id="02"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c3">
+                    <div class="cell">
+                        <div class="blank" id="03"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c4">
+                    <div class="cell">
+                        <div class="blank" id="04"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c5">
+                    <div class="cell">
+                        <div class="blank" id="05"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c6">
+                    <div class="cell">
+                        <div class="blank" id="06"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="c0">
+                    <div class="cell">
+                        <div class="blank" id="10"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c1">
+                    <div class="cell">
+                        <div class="blank" id="11"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c2">
+                    <div class="cell">
+                        <div class="blank" id="12"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c3">
+                    <div class="cell">
+                        <div class="blank" id="13"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c4">
+                    <div class="cell">
+                        <div class="blank" id="14"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c5">
+                    <div class="cell">
+                        <div class="blank" id="15"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c6">
+                    <div class="cell">
+                        <div class="blank" id="16"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="c0">
+                    <div class="cell">
+                        <div class="blank" id="20"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c1">
+                    <div class="cell">
+                        <div class="blank" id="21"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c2">
+                    <div class="cell">
+                        <div class="blank" id="22"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c3">
+                    <div class="cell">
+                        <div class="blank" id="23"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c4">
+                    <div class="cell">
+                        <div class="blank" id="24"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c5">
+                    <div class="cell">
+                        <div class="blank" id="25"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c6">
+                    <div class="cell">
+                        <div class="blank" id="26"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="c0">
+                    <div class="cell">
+                        <div class="blank" id="30"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c1">
+                    <div class="cell">
+                        <div class="blank" id="31"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c2">
+                    <div class="cell">
+                        <div class="blank" id="32"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c3">
+                    <div class="cell">
+                        <div class="blank" id="33"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c4">
+                    <div class="cell">
+                        <div class="blank" id="34"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c5">
+                    <div class="cell">
+                        <div class="blank" id="35"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c6">
+                    <div class="cell">
+                        <div class="blank" id="36"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="c0">
+                    <div class="cell">
+                        <div class="blank" id="40"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c1">
+                    <div class="cell">
+                        <div class="blank" id="41"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c2">
+                    <div class="cell">
+                        <div class="blank" id="42"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c3">
+                    <div class="cell">
+                        <div class="blank" id="43"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c4">
+                    <div class="cell">
+                        <div class="blank" id="44"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c5">
+                    <div class="cell">
+                        <div class="blank" id="45"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c6">
+                    <div class="cell">
+                        <div class="blank" id="46"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="c0">
+                    <div class="cell">
+                        <div class="blank" id="50"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c1">
+                    <div class="cell">
+                        <div class="blank" id="51"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c2">
+                    <div class="cell">
+                        <div class="blank" id="52"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c3">
+                    <div class="cell">
+                        <div class="blank" id="53"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c4">
+                    <div class="cell">
+                        <div class="blank" id="54"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c5">
+                    <div class="cell">
+                        <div class="blank" id="55"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div id="c6">
+                    <div class="cell">
+                        <div class="blank" id="56"></div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <div class="wrapper">
+        <h2 id="yellowWon">Yellow won!</h2>
+        <h2 id="redWon">Red won!</h2>
+        <h2 id="tie">Tie!</h2>
+        <br>
+        <button class="restartButton" id="restartButton">Restart</button>
+    </div>
+
+</body>
+
+</html>
+
+<script src="fourinarow.js"></script>

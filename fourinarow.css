@@ -1,0 +1,64 @@
+.cell {
+    height: 80px;
+    width: 80px;
+}
+
+.blank {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: #00000080;
+    border-radius: 50%;
+    transform: translate(5px, 5px );
+}
+
+.yellow {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    border-radius: 50%;
+    transform: translate(5px, 5px );
+}
+
+.red {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(5px, 5px );
+}
+
+.body {
+    background-color: powderblue;
+}
+
+.table {
+    background-color: #4444ff;
+}
+
+#yellowWon {
+    text-align: center;
+    display: none;
+}
+
+#redWon {
+    text-align: center;
+    display: none;
+}
+
+#tie {
+    text-align: center;
+    display: none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.restartButton {
+    width: 80px;
+    height: 30px;
+    display: none; /*inline-block to show*/
+}
